@@ -76,7 +76,7 @@ title = {{Agent 2048: Forging Strategic Gameplay in an AI Through Data, Rewards,
 year = {2025},
 month = {April},
 day = {1},
-url = {[https://yourwebsite.com/blog/ai-agent-plays-2048](https://hrishbh.com/agent-2048-forging-strategic-gameplay-in-an-ai-through-data-rewards-and-rl/)},
+url = {[Link to the blog for further details](https://hrishbh.com/agent-2048-forging-strategic-gameplay-in-an-ai-through-data-rewards-and-rl/)},
 note = {Accessed on April 1, 2025}
 }
 
