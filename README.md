@@ -1,10 +1,10 @@
 # 2048 Game LLM Training with GRPO
 
 ## Overview
-This project implements a Generative Reinforcement Learning from Preference Optimization (GRPO) approach to train Large Language Models (LLMs) for playing the 2048 game. The training pipeline includes dataset generation, model fine-tuning, and comprehensive reward engineering.
+This project implements a Group Relative Policy Optimization (GRPO) approach to train Large Language Models (LLMs) for playing the 2048 game. The training pipeline includes dataset generation, model fine-tuning, and comprehensive reward engineering.
 
 ## Features
-- **Dataset Generation**: Creates diverse 2048 game states with difficulty classifications
+- **Dataset Generation**: Creates diverse 2048 game states with difficulty classifications (the most innovative part in my opinion for this project)
 - **Multi-Modal Support**: Handles both text-only and visual (VLM) training formats
 - **Advanced Reward Functions**:
   - Tag structure validation
@@ -15,7 +15,7 @@ This project implements a Generative Reinforcement Learning from Preference Opti
 
 ## Technical Details
 - **Base Model**: Qwen 2.5 7B Instruct
-- **Training Method**: GRPO (Generative Reinforcement Learning from Preference Optimization)
+- **Training Method**: GRPO (Group Relative Policy Optimization)
 - **LoRA Parameters**:
   - Rank: 16
   - Target Modules: QKVO and MLP
@@ -24,7 +24,7 @@ This project implements a Generative Reinforcement Learning from Preference Opti
 ## Dataset Characteristics
 - Training Size: 8000 samples
 - Test Size: 50 samples
-- 5 difficulty levels with distribution [1,2,3,4,5]
+- 5 difficulty levels with distribution [1,2,3,4,5] in this ratio of 1:2:3:4:5
 - Board states generated with varying complexity
 
 ## Training Configuration
@@ -76,7 +76,7 @@ title = {{Agent 2048: Forging Strategic Gameplay in an AI Through Data, Rewards,
 year = {2025},
 month = {April},
 day = {1},
-url = {[Link to the blog for further details](https://hrishbh.com/agent-2048-forging-strategic-gameplay-in-an-ai-through-data-rewards-and-rl/)},
+url = {[Agent-2048-forging-strategic-gameplay-in-an-ai-through-data-rewards-and-rl](https://hrishbh.com/agent-2048-forging-strategic-gameplay-in-an-ai-through-data-rewards-and-rl/)},
 note = {Accessed on April 1, 2025}
 }
 
